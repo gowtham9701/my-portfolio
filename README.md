@@ -1,6 +1,6 @@
 # Gowtham Kumar — Software Engineer Portfolio
 
-A responsive, motion-enhanced portfolio for **Nayudu Venkata Gowtham Kumar**, a Software Engineer at Ford Credit in Chennai, India. The site presents his experience, SmartEscrow project, technical toolkit, education, certifications, resume, and contact information in an original dark editorial design.
+A responsive, editorial portfolio for **Nayudu Venkata Gowtham Kumar**, a Software Engineer at Ford Credit in Chennai, India. The site presents his experience, SmartEscrow project, technical toolkit, education, certifications, résumé, and contact information in a warm paper-and-ink visual style.
 
 - **Live portfolio:** <https://my-portfolio-pied-alpha-39.vercel.app>
 - **Live code:** <https://github.com/gowtham9701/my-portfolio>
@@ -9,8 +9,8 @@ A responsive, motion-enhanced portfolio for **Nayudu Venkata Gowtham Kumar**, a 
 
 ## Highlights
 
-- Responsive layout with a mobile navigation menu.
-- Animated hero entrance, orbital portrait accents, and reveal-on-scroll section transitions.
+- Responsive editorial layout with accessible mobile navigation.
+- Restrained entrance and scroll-reveal transitions, with no continuous decorative motion.
 - Honors the visitor's `prefers-reduced-motion` setting.
 - Featured SmartEscrow project overview, Ford Credit experience, technical skills, education, and certifications.
 - Downloadable copy of the resume included in `assets/`.
@@ -23,7 +23,7 @@ This is a dependency-free static site built with:
 - Semantic HTML
 - CSS, responsive layouts, and keyframe transitions
 - Vanilla JavaScript for the mobile menu and scroll reveals
-- Google Fonts (Manrope, Space Grotesk, and DM Mono)
+- Google Fonts (DM Serif Display, DM Sans, and DM Mono)
 
 There is no package installation, bundling, or build step.
 

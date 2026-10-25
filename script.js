@@ -23,6 +23,7 @@ document.addEventListener("keydown", (event) => {
 });
 
 document.querySelector("#current-year").textContent = new Date().getFullYear();
+document.documentElement.classList.add("has-js");
 
 if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
   const observer = new IntersectionObserver(
@@ -33,7 +34,7 @@ if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-mot
         currentObserver.unobserve(entry.target);
       }
     },
-    { threshold: 0.12 },
+    { rootMargin: "0px 0px -8% 0px", threshold: 0.08 },
   );
 
   document.querySelectorAll("[data-reveal]").forEach((element) => observer.observe(element));

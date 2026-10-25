@@ -3,22 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#101518" />
+    <meta name="theme-color" content="#f2f0e9" />
     <meta
       name="description"
-      content="Portfolio of Nayudu Venkata Gowtham Kumar, Software Engineer building Java, Spring Boot, React, and GCP applications."
+      content="Portfolio of Nayudu Venkata Gowtham Kumar, a software engineer building full-stack products and cloud workflows at Ford Credit."
     />
-    <meta property="og:title" content="Gowtham Kumar | Software Engineer" />
+    <meta property="og:title" content="Gowtham Kumar — Software Engineer" />
     <meta
       property="og:description"
-      content="Building reliable software for real workflows with Java, Spring Boot, React, and Google Cloud."
+      content="A software engineer working across product interfaces, backend services, and cloud systems."
     />
-    <title>Gowtham Kumar | Software Engineer</title>
+    <title>Gowtham Kumar — Software Engineer</title>
     <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -26,10 +26,10 @@
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
+    <header class="site-header section-shell">
       <a class="wordmark" href="#top" aria-label="Gowtham Kumar, home">
-        <span class="wordmark-mark">GK</span>
-        <span class="wordmark-copy">GOWTHAM KUMAR<span>SOFTWARE ENGINEER</span></span>
+        <span class="wordmark-mark" aria-hidden="true">g.</span>
+        <span class="wordmark-copy">Gowtham Kumar<span>Software engineer · Chennai</span></span>
       </a>
       <button
         class="menu-toggle"
@@ -41,143 +41,152 @@
         <span></span><span></span>
       </button>
       <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
-        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#work">Selected work</a>
         <a href="#experience">Experience</a>
-        <a href="#toolkit">Toolkit</a>
-        <a href="#education">Education</a>
-        <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+        <a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
 
     <main id="main">
       <section class="hero section-shell" id="top" aria-labelledby="hero-title">
-        <div class="hero-grid" aria-hidden="true"></div>
-        <div class="hero-copy" data-reveal>
-          <p class="eyebrow"><span class="signal-dot"></span> BASED IN CHENNAI, INDIA</p>
-          <p class="hero-kicker">SOFTWARE ENGINEER <span>/</span> FORD CREDIT</p>
-          <h1 id="hero-title">From idea to<br /><span>impact.</span></h1>
-          <p class="hero-intro">
-            I'm <strong>Nayudu Venkata Gowtham Kumar</strong> — a software engineer building dependable
-            Java and React products, cloud workflows, and the systems behind them.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
-            <a class="button button-quiet" href="./assets/Venkata_Gowtham_Kumar_Nayudu_Resume.pdf" download>
-              Download resume <span aria-hidden="true">↗</span>
-            </a>
-          </div>
-          <div class="hero-proof" aria-label="Career highlights">
-            <div><strong>2+</strong><span>years building<br />production software</span></div>
-            <div><strong>2</strong><span>applications with<br />role-based access</span></div>
-            <div><strong>3</strong><span>core UI modules<br />supported at launch</span></div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="signal-dot"></span> SOFTWARE ENGINEER · CHENNAI, INDIA</p>
+          <h1 id="hero-title">Software, from<br /><em>screen to system.</em></h1>
+          <div class="hero-bottom">
+            <p class="hero-intro">
+              I'm <strong>Nayudu Venkata Gowtham Kumar.</strong> At Ford Credit, I build the React
+              interfaces, Java services, and cloud workflows that make complex work easier to do.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work">See selected work <span aria-hidden="true">↓</span></a>
+              <a class="text-link" href="./assets/Venkata_Gowtham_Kumar_Nayudu_Resume.pdf" download>
+                Download résumé <span aria-hidden="true">↗</span>
+              </a>
+            </div>
           </div>
         </div>
 
-        <div class="portrait-stage" data-reveal>
-          <div class="portrait-orbit orbit-one"></div>
-          <div class="portrait-orbit orbit-two"></div>
+        <figure class="portrait-stage">
+          <span class="portrait-backdrop" aria-hidden="true"></span>
           <div class="portrait-frame">
             <img
               src="./assets/gowtham-portrait.png"
-              alt="Nayudu Venkata Gowtham Kumar in a dark suit and tie"
+              alt="Nayudu Venkata Gowtham Kumar"
               width="500"
               height="416"
               fetchpriority="high"
             />
-            <div class="portrait-caption">
-              <span class="caption-index">01 / PROFILE</span>
-              <span>Building for the real world.</span>
+          </div>
+          <figcaption class="portrait-caption">
+            <span>Currently building at</span>
+            <strong>Ford Credit <span aria-hidden="true">↗</span></strong>
+          </figcaption>
+          <span class="portrait-index" aria-hidden="true">13° 04′ N<br />80° 17′ E</span>
+        </figure>
+
+        <a class="scroll-cue" href="#about"><span aria-hidden="true"></span> A little about how I work</a>
+      </section>
+
+      <div class="expertise-strip" aria-label="Areas of experience">
+        <div class="section-shell expertise-inner">
+          <span>Across the stack</span>
+          <p>Java <i>·</i> React <i>·</i> Spring Boot <i>·</i> Google Cloud <i>·</i> PostgreSQL</p>
+        </div>
+      </div>
+
+      <section class="about-section section-shell" id="about" aria-labelledby="about-title">
+        <div class="section-label" data-reveal>
+          <span>01</span>
+          <span>A note on the work</span>
+        </div>
+        <div class="about-copy" data-reveal>
+          <h2 id="about-title">Good software is quiet about its complexity.</h2>
+          <p>
+            I enjoy the parts of engineering that connect: a clear interface, a dependable API, and
+            the event moving safely between them. At Ford Credit, that has meant building access
+            controls, document workflows, and production features alongside product and platform teams.
+          </p>
+          <p>
+            I care about the details people feel every day: sensible defaults, useful feedback, and
+            systems that keep doing their job after launch.
+          </p>
+        </div>
+        <aside class="about-aside" data-reveal>
+          <span class="aside-rule" aria-hidden="true"></span>
+          <p>Interface to infrastructure.<br />Useful, reliable, considered.</p>
+        </aside>
+      </section>
+
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="section-shell">
+          <div class="section-heading" data-reveal>
+            <div class="section-label">
+              <span>02</span>
+              <span>Selected work</span>
             </div>
+            <h2 id="work-title">One project, end to end.</h2>
           </div>
-          <div class="orbit-label label-top"><span>JAVA</span><span>SPRING BOOT</span></div>
-          <div class="orbit-label label-bottom"><span>GCP</span><span>REACT</span></div>
-        </div>
-        <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
-      </section>
-
-      <section class="intro-band" id="about" aria-labelledby="about-title">
-        <div class="section-shell intro-layout">
-          <p class="eyebrow" data-reveal>01 / THE APPROACH</p>
-          <div data-reveal>
-            <h2 id="about-title">Good software makes<br /><span>complex work feel simple.</span></h2>
-            <p>
-              At Ford Credit, I build full-stack features and event-driven services that help teams move
-              information securely and reliably. I care about clear APIs, thoughtful access control, and
-              shipping changes with confidence.
-            </p>
-          </div>
-          <div class="intro-aside" data-reveal>
-            <span class="aside-mark" aria-hidden="true">+</span>
-            <p>From a user's click to a cloud event, I enjoy connecting every part of the journey.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-shell section-block work-section" id="work" aria-labelledby="work-title">
-        <div class="section-heading" data-reveal>
-          <div>
-            <p class="eyebrow">02 / SELECTED WORK</p>
-            <h2 id="work-title">A product, end to end.</h2>
-          </div>
-          <p class="heading-note">One featured build<br />Full-stack by design</p>
-        </div>
-        <article class="project-card" data-reveal>
-          <div class="project-visual">
-            <div class="project-window">
-              <div class="window-chrome"><i></i><i></i><i></i><span>SMARTESCROW / WORKSPACE</span></div>
-              <div class="window-content">
-                <div class="window-sidebar"><b>SE</b><span></span><span></span><span></span><span></span></div>
-                <div class="window-main">
-                  <div class="window-topline"><span>OVERVIEW</span><span class="window-status">● ACTIVE</span></div>
-                  <div class="window-title">Work, with confidence.</div>
-                  <div class="window-stats">
-                    <div><small>ENGAGEMENT</small><b>Hourly</b></div>
-                    <div><small>PAYMENT</small><b>In escrow</b></div>
+          <article class="project-card" data-reveal>
+            <div class="project-visual" aria-label="Illustrated SmartEscrow workspace preview">
+              <div class="project-window">
+                <div class="window-chrome">
+                  <span class="window-brand">SE / SMARTESCROW</span>
+                  <span class="window-status"><i aria-hidden="true"></i> WORKSPACE</span>
+                </div>
+                <div class="window-content">
+                  <div class="window-sidebar" aria-hidden="true">
+                    <b>SE</b><span></span><span></span><span></span><span></span>
                   </div>
-                  <div class="ledger-row"><span>01</span><i></i><b>Project funded</b><em>HELD</em></div>
-                  <div class="ledger-row"><span>02</span><i></i><b>Work approved</b><em>READY</em></div>
-                  <div class="ledger-row"><span>03</span><i></i><b>Payment released</b><em>SETTLED</em></div>
+                  <div class="window-main">
+                    <div class="window-topline"><span>PROJECT OVERVIEW</span><span>01 — 03</span></div>
+                    <p class="window-title">A clearer way to work together.</p>
+                    <div class="window-stats">
+                      <div><small>ENGAGEMENT</small><b>Hourly</b></div>
+                      <div><small>PAYMENT</small><b>In escrow</b></div>
+                    </div>
+                    <div class="ledger-row"><span>01</span><i></i><b>Project funded</b><em>HELD</em></div>
+                    <div class="ledger-row"><span>02</span><i></i><b>Work approved</b><em>READY</em></div>
+                    <div class="ledger-row"><span>03</span><i></i><b>Payment released</b><em>SETTLED</em></div>
+                  </div>
                 </div>
               </div>
+              <span class="visual-caption">A product concept / SmartEscrow</span>
             </div>
-            <span class="visual-index">PROJECT 001</span>
-          </div>
-          <div class="project-details">
-            <div class="project-meta"><span>FEATURED PROJECT</span><span>FULL-STACK</span></div>
-            <h3>SmartEscrow</h3>
-            <p class="project-subtitle">A talent marketplace built around trust.</p>
-            <p>
-              A two-sided marketplace connecting employers and freelancers, with a simulated escrow
-              workflow designed to make every engagement and payment easy to follow.
-            </p>
-            <ul class="project-points">
-              <li>Jobs, applications, hourly engagements, and timesheets</li>
-              <li>Wallet ledger with double-entry records and hold, release, and refund flows</li>
-              <li>Candidate matching with skills extraction and optional Ollama LLM support</li>
-              <li>JWT authentication and email OTP using Resend with SMTP fallback</li>
-            </ul>
-            <div class="tag-list" aria-label="Project technologies">
-              <span>Next.js</span><span>TypeScript</span><span>FastAPI</span><span>PostgreSQL</span><span>Docker</span>
+            <div class="project-details">
+              <div class="project-meta"><span>FULL-STACK PRODUCT</span><span>01 / 01</span></div>
+              <h3>SmartEscrow</h3>
+              <p class="project-subtitle">A talent marketplace built around trust.</p>
+              <p>
+                A two-sided marketplace connecting employers and freelancers, with a simulated
+                escrow workflow that makes every engagement and payment easy to follow.
+              </p>
+              <ul class="project-points">
+                <li>Jobs, applications, hourly engagements, and timesheets</li>
+                <li>Wallet ledger with double-entry records and hold, release, and refund flows</li>
+                <li>Candidate matching with skills extraction and optional Ollama support</li>
+                <li>JWT authentication and email OTP with SMTP fallback</li>
+              </ul>
+              <div class="tag-list" aria-label="Project technologies">
+                <span>Next.js</span><span>TypeScript</span><span>FastAPI</span><span>PostgreSQL</span><span>Docker</span>
+              </div>
+              <p class="project-footnote">Built and deployed with Docker, Render, and Vercel.</p>
             </div>
-            <p class="project-footnote">Deployed with Docker to Render and Vercel.</p>
-          </div>
-        </article>
+          </article>
+        </div>
       </section>
 
       <section class="experience-section" id="experience" aria-labelledby="experience-title">
-        <div class="section-shell section-block">
+        <div class="section-shell">
           <div class="section-heading" data-reveal>
-            <div>
-              <p class="eyebrow">03 / EXPERIENCE</p>
-              <h2 id="experience-title">Building in production.</h2>
-            </div>
-            <p class="heading-note">Ford Credit<br />Chennai, India</p>
+            <div class="section-label"><span>03</span><span>Experience</span></div>
+            <h2 id="experience-title">Where I’ve been putting it to work.</h2>
           </div>
           <div class="experience-list">
             <article class="experience-item" data-reveal>
-              <div class="experience-date"><span>JUN 2024 — NOW</span><i></i></div>
+              <p class="experience-date">JUN 2024 — NOW</p>
               <div class="experience-content">
-                <p class="experience-company">FORD CREDIT <span>CHENNAI, INDIA</span></p>
+                <p class="experience-company">FORD CREDIT <span>· CHENNAI, INDIA</span></p>
                 <h3>Software Engineer</h3>
                 <ul>
                   <li>Implemented role-based access control across two applications using Spring Boot and React.</li>
@@ -189,9 +198,9 @@
               </div>
             </article>
             <article class="experience-item" data-reveal>
-              <div class="experience-date"><span>AUG 2023 — MAY 2024</span><i></i></div>
+              <p class="experience-date">AUG 2023 — MAY 2024</p>
               <div class="experience-content">
-                <p class="experience-company">FORD CREDIT <span>CHENNAI, INDIA</span></p>
+                <p class="experience-company">FORD CREDIT <span>· CHENNAI, INDIA</span></p>
                 <h3>Software Development Intern</h3>
                 <ul>
                   <li>Developed Spring Boot services and React components for the Digital Mailroom Transformation platform.</li>
@@ -205,29 +214,27 @@
         </div>
       </section>
 
-      <section class="section-shell section-block toolkit-section" id="toolkit" aria-labelledby="toolkit-title">
-        <div class="section-heading" data-reveal>
-          <div>
-            <p class="eyebrow">04 / TOOLKIT</p>
-            <h2 id="toolkit-title">Tools I build with.</h2>
+      <section class="toolkit-section" id="toolkit" aria-labelledby="toolkit-title">
+        <div class="section-shell toolkit-layout">
+          <div class="toolkit-intro" data-reveal>
+            <div class="section-label"><span>04</span><span>Tools I reach for</span></div>
+            <h2 id="toolkit-title">A practical toolkit.</h2>
+            <p>Chosen for the problem, not the trend.</p>
           </div>
-          <p class="heading-note">A practical stack<br />for shipping software</p>
-        </div>
-        <div class="toolkit-grid">
-          <article class="toolkit-card" data-reveal><span>01</span><h3>Languages</h3><p>Java, Python, JavaScript, TypeScript, SQL, HTML, CSS</p></article>
-          <article class="toolkit-card" data-reveal><span>02</span><h3>Backend & APIs</h3><p>Spring Boot, Microservices, REST APIs, Event-Driven Architecture, FastAPI, Flask</p></article>
-          <article class="toolkit-card" data-reveal><span>03</span><h3>Frontend</h3><p>React.js, Next.js, Tailwind CSS</p></article>
-          <article class="toolkit-card" data-reveal><span>04</span><h3>Cloud & delivery</h3><p>GCP, Cloud Run, Cloud Build, Cloud Tasks, Pub/Sub, Terraform, Docker, Tekton, CI/CD, Git</p></article>
-          <article class="toolkit-card" data-reveal><span>05</span><h3>Data & security</h3><p>PostgreSQL, MySQL, RBAC, JWT, OTP Authentication</p></article>
-          <article class="toolkit-card" data-reveal><span>06</span><h3>Quality & AI</h3><p>JUnit, Checkmarx, SonarQube, Cycode, 42Crunch, Ollama, GitHub Copilot</p></article>
+          <div class="toolkit-list">
+            <article class="toolkit-item" data-reveal><span>01</span><div><h3>Build</h3><p>Java, Python, JavaScript, TypeScript, SQL</p></div></article>
+            <article class="toolkit-item" data-reveal><span>02</span><div><h3>Ship</h3><p>Spring Boot, React, Next.js, FastAPI, Flask</p></div></article>
+            <article class="toolkit-item" data-reveal><span>03</span><div><h3>Run</h3><p>GCP, Cloud Run, Pub/Sub, PostgreSQL, MySQL</p></div></article>
+            <article class="toolkit-item" data-reveal><span>04</span><div><h3>Improve</h3><p>JUnit, Terraform, Docker, CI/CD, security tooling</p></div></article>
+          </div>
         </div>
       </section>
 
       <section class="education-section" id="education" aria-labelledby="education-title">
-        <div class="section-shell section-block education-layout">
+        <div class="section-shell education-layout">
           <div data-reveal>
-            <p class="eyebrow">05 / EDUCATION</p>
-            <h2 id="education-title">The foundations.</h2>
+            <div class="section-label"><span>05</span><span>Foundations</span></div>
+            <h2 id="education-title">Learning by building.</h2>
             <div class="education-entry">
               <span class="education-date">JUL 2024</span>
               <h3>M.Tech Integrated, Software Engineering</h3>
@@ -236,7 +243,7 @@
             </div>
           </div>
           <div class="certification-panel" data-reveal>
-            <p class="eyebrow">CERTIFICATIONS</p>
+            <p class="section-label"><span>Also</span><span>Certifications</span></p>
             <ul>
               <li><span>GOOGLE CLOUD</span><strong>Professional Cloud Architect</strong></li>
               <li><span>GOOGLE CLOUD</span><strong>Associate Cloud Engineer</strong></li>
@@ -247,20 +254,16 @@
       </section>
 
       <section class="contact-section" id="contact" aria-labelledby="contact-title">
-        <div class="contact-glow" aria-hidden="true"></div>
         <div class="section-shell contact-inner" data-reveal>
-          <p class="eyebrow">06 / NEXT STEPS</p>
-          <h2 id="contact-title">Let's make<br /><span>something matter.</span></h2>
-          <p>Have a thoughtful problem to solve? I'd love to hear about it.</p>
-          <div class="contact-actions">
-            <a class="button button-primary" href="mailto:nvgowthamkumar07@gmail.com">Email me <span aria-hidden="true">↗</span></a>
-            <a class="button button-outline" href="https://www.linkedin.com/in/n-v-gowtham-kumar-428830190/" target="_blank" rel="noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
-            <a class="button button-outline" href="https://github.com/gowtham9701" target="_blank" rel="noreferrer">View GitHub <span aria-hidden="true">↗</span></a>
-          </div>
+          <p class="section-label"><span>06</span><span>Next conversation</span></p>
+          <h2 id="contact-title">Have a good<br /><em>problem to solve?</em></h2>
+          <a class="contact-link" href="mailto:nvgowthamkumar07@gmail.com">
+            Tell me about it <span aria-hidden="true">↗</span>
+          </a>
           <div class="contact-details">
             <a href="mailto:nvgowthamkumar07@gmail.com">nvgowthamkumar07@gmail.com</a>
-            <a href="https://www.linkedin.com/in/n-v-gowtham-kumar-428830190/" target="_blank" rel="noreferrer">LINKEDIN PROFILE</a>
-            <a href="https://github.com/gowtham9701" target="_blank" rel="noreferrer">GITHUB PROFILE</a>
+            <a href="https://www.linkedin.com/in/n-v-gowtham-kumar-428830190/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a href="https://github.com/gowtham9701" target="_blank" rel="noreferrer">GitHub ↗</a>
           </div>
         </div>
       </section>
@@ -268,11 +271,11 @@
 
     <footer class="site-footer section-shell">
       <a class="wordmark" href="#top" aria-label="Back to top">
-        <span class="wordmark-mark">GK</span>
-        <span class="wordmark-copy">GOWTHAM KUMAR<span>SOFTWARE ENGINEER</span></span>
+        <span class="wordmark-mark" aria-hidden="true">g.</span>
+        <span class="wordmark-copy">Gowtham Kumar<span>Software engineer · Chennai</span></span>
       </a>
-      <p>Designed and built with care <span aria-hidden="true">·</span> <span id="current-year"></span></p>
-      <a href="#top">BACK TO TOP ↑</a>
+      <p>Made with care <span aria-hidden="true">·</span> <span id="current-year"></span></p>
+      <a class="back-to-top" href="#top">Back to top ↑</a>
     </footer>
   </body>
 </html>
