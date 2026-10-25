@@ -1,6 +1,6 @@
-# Gowtham Kumar — Software Engineer Portfolio
+# my-portfolio — Gowtham Kumar
 
-A responsive, cinematic portfolio for Nayudu Venkata Gowtham Kumar, built from scratch with semantic HTML, CSS, and vanilla JavaScript. The visual direction uses a dark, editorial palette and original interface artwork; it does not reuse the source code of the unlicensed reference repository.
+A responsive, cinematic portfolio for Nayudu Venkata Gowtham Kumar, built from scratch with semantic HTML, CSS, and vanilla JavaScript. It uses an original dark editorial design and does not reuse source code from the unlicensed reference repository.
 
 GitHub profile: <https://github.com/gowtham9701>
 
