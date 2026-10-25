@@ -2,6 +2,7 @@
 
 A responsive, motion-enhanced portfolio for **Nayudu Venkata Gowtham Kumar**, a Software Engineer at Ford Credit in Chennai, India. The site presents his experience, SmartEscrow project, technical toolkit, education, certifications, resume, and contact information in an original dark editorial design.
 
+- **Live portfolio:** <https://my-portfolio-pied-alpha-39.vercel.app>
 - **Live code:** <https://github.com/gowtham9701/my-portfolio>
 - **GitHub profile:** <https://github.com/gowtham9701>
 - **LinkedIn:** <https://www.linkedin.com/in/n-v-gowtham-kumar-428830190/>
@@ -60,9 +61,11 @@ Open <http://127.0.0.1:4173> in a browser. A local server makes the resume downl
 
 ## Deploy
 
-The repository is ready to deploy as a static site:
+The production site is deployed on Vercel: **<https://my-portfolio-pied-alpha-39.vercel.app>**. Commits to the connected `main` branch trigger a new deployment.
+
+For another deployment or hosting provider:
 
 - **GitHub Pages:** In repository **Settings → Pages**, choose **Deploy from a branch**, select `main` and the `/ (root)` folder, then save.
-- **Vercel / Netlify:** Import the repository and select a static site with the repository root as the publish directory. No build command is needed.
+- **Netlify:** Import the repository and select a static site with the repository root as the publish directory. No build command is needed.
 
 Keep `index.html`, `styles.css`, `script.js`, and the `assets/` folder together at the site root.
